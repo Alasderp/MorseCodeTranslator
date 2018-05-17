@@ -27,7 +27,7 @@ public class Main {
 			//Check for spaces between words and allow for a pause
 			if(("" + charList[x]).equals(" ")) {
 				System.out.print("   ");
-				playSound(500, 0, 0);
+				playSound(1500, 0, 0);
 			}
 			else if(dictionary.letterTranslator.containsKey(charList[x])){
 				
@@ -50,7 +50,7 @@ public class Main {
 				
 				//Take a pause between characters in a word
 				System.out.print(" ");
-				playSound(250, 0, 0);
+				playSound(750, 0, 0);
 				
 			}
 		}
